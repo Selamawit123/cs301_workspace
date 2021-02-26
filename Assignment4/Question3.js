@@ -5,22 +5,8 @@ locked out.”*/
 const prompt= require("prompt-sync")();
 let Guess_Pin= prompt("Guess the pin number");
 const pin= 3456;
-// const NumberOfTries = 3;
-// for (i=1; i<=NumberOfTries;i++){
-//     if(Guess_Pin===pin){
-//        console.log("Correct, welcome back");
-//     }
-     
-//     if(Guess_Pin!=pin){
-//        console.log( prompt ("Incorrect, try again"));
-       
-//     }
-let count=1;
 
-   
-
-
-   
+let count=1;   
    while(true){
       if(Guess_Pin===pin){
          console.log("Correct pin");
