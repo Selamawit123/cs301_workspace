@@ -8,7 +8,8 @@ let num2 = +prompt("Enter a second positive integer: ");
   * 
   * @param {int} num1 The first positive integer number
   * @param {int} num2 The second positive integer number
-  * 
+  * @param {int}   abc  a is equal to the second number  
+  *
   * @returns{int} num1 It is module of num1 and num2
   */
 function HCF(num1, num2){
@@ -18,9 +19,9 @@ function HCF(num1, num2){
        num1= Math.abs(num1);
         num2= Math.abs(num2);
         while(num2) {
-          let a = num2;
+          let abc = num2;
           num2= num1 % num2;
-          num1 = a;
+          num1 = abc;
         }
         return num1;
         
