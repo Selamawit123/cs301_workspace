@@ -1,0 +1,24 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Add</title>
+    <script>
+        function clickToAdd() {
+            const Input = document.getElementById("input").value;
+            
+             document.getElementById("output").innerHTML = Input;
+        }
+    </script>
+</head>
+
+<body>
+    Input:   <input type="text" id="input"><br>
+    Output: <output type="text" id="output"><br>
+    <input type="button" value="Click to add" onclick="clickToAdd()">
+    <Output id="output"></Output>
+</body>
+
+</html>
